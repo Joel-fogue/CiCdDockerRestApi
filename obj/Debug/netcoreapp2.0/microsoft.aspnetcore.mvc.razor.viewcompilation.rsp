@@ -1,0 +1,5 @@
+/home/joel/workspace/asp/aspnetcore-generator-api/api
+--output-path=obj/Debug/netcoreapp2.0/
+--application-name=api
+--content-root=/home/joel/workspace/asp/aspnetcore-generator-api/api
+--file=

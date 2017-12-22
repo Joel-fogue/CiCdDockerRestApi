@@ -1,0 +1,11 @@
+/home/joel/workspace/asp/aspnetcore-generator-api/api/bin/Debug/netcoreapp2.0/api.deps.json
+/home/joel/workspace/asp/aspnetcore-generator-api/api/bin/Debug/netcoreapp2.0/api.runtimeconfig.json
+/home/joel/workspace/asp/aspnetcore-generator-api/api/bin/Debug/netcoreapp2.0/api.runtimeconfig.dev.json
+/home/joel/workspace/asp/aspnetcore-generator-api/api/bin/Debug/netcoreapp2.0/api.dll
+/home/joel/workspace/asp/aspnetcore-generator-api/api/bin/Debug/netcoreapp2.0/api.pdb
+/home/joel/workspace/asp/aspnetcore-generator-api/api/obj/Debug/netcoreapp2.0/api.csproj.CoreCompileInputs.cache
+/home/joel/workspace/asp/aspnetcore-generator-api/api/obj/Debug/netcoreapp2.0/UserSecretsAssemblyInfo.cs
+/home/joel/workspace/asp/aspnetcore-generator-api/api/obj/Debug/netcoreapp2.0/api.AssemblyInfoInputs.cache
+/home/joel/workspace/asp/aspnetcore-generator-api/api/obj/Debug/netcoreapp2.0/api.AssemblyInfo.cs
+/home/joel/workspace/asp/aspnetcore-generator-api/api/obj/Debug/netcoreapp2.0/api.dll
+/home/joel/workspace/asp/aspnetcore-generator-api/api/obj/Debug/netcoreapp2.0/api.pdb
