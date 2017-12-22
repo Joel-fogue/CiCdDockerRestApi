@@ -1,0 +1,14 @@
+de-DE
+api.deps.json
+api.pdb
+api.PrecompiledViews.dll
+api.PrecompiledViews.pdb
+api.runtimeconfig.json
+appsettings.Development.json
+appsettings.json
+Faker.NET4.dll
+global.json
+Swashbuckle.AspNetCore.dll
+Swashbuckle.AspNetCore.SwaggerGen.dll
+Swashbuckle.AspNetCore.SwaggerUI.dll
+web.config
