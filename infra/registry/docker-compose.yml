@@ -5,8 +5,11 @@ services:
     image: registry:2.6.1
     volumes:
       - registry:/var/lib/registry
+    restart: unless-stopped
     ports:
       - "55000:5000"
+
+
 
 volumes:
   registry:

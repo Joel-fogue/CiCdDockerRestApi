@@ -6,7 +6,7 @@ version: '3.1'
 services:
   jenkins_server:
     build: .
-    image: joelfoit/jenkins:slave_master #gives a name to our image that we just built
+    image: joelfoit/jenkins:manager #gives a name to our image that we just built
     ports:
       - "8080:8080"  #master port on Docker host mapping to 8080 inside the container
       - "50000:50000"  #used for slave agents - not needed to ssh slaves
@@ -14,3 +14,4 @@ services:
     volumes:
       - $HOME/jenkins_home:/var/jenkins_home #let docker manage the volume on the host to avoid file permission issues when the jenkins user doesn't have enough perm to access this location on a different machine
       - $HOME/jenkins_home/logs:/var/log/jenkins/ #https://wiki.jenkins.io/display/JENKINS/Logging
+      - $HOME/jenkins_home/run/docker.sock:/var/run/docker.sock #Giving the agent the capacity to run docker containers
