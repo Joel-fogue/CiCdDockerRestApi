@@ -3,6 +3,8 @@ MAINTAINER Joel Fogue <joel.fogue@quickpivot.com>
 
 COPY executors.groovy /usr/share/jenkins/ref/init.groovy.d/executors.groovy
 
+#Installing missing libs required for jenkins to run on docker 
+
 USER root
 RUN apt-get update \
       && apt-get upgrade -y \
