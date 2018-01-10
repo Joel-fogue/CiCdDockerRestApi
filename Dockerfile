@@ -29,3 +29,4 @@ FROM microsoft/aspnetcore:2
 COPY --from=build-env /publish /publish
 WORKDIR /publish
 ENTRYPOINT ["dotnet", "api.dll"]
+
