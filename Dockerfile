@@ -24,7 +24,6 @@ RUN dotnet test tests/tests.csproj
 #publish
 RUN dotnet publish api/api.csproj -o /publish
 
-
 #Runtime Stage
 FROM microsoft/aspnetcore:2
 COPY --from=build-env /publish /publish
