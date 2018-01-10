@@ -8,7 +8,9 @@ pipeline {
   stages {
     stage('Initialize') {
       steps {
-        echo 'hello world'
+        sh '''echo $USER
+echo $PATH
+'''
       }
     }
   }
